@@ -1,3 +1,134 @@
+SoftEther VPN (Stable Edition Repository)
+- An Open-Source Cross-platform Multi-protocol VPN Program
+https://www.softether.org/
+
+We use GitHub as the primary official SoftEther VPN repository:
+https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/
+
+This branch is officially managed by Daiyuu Nobori, the owner of
+SoftEther VPN Project. Pull requests should be sent to the
+Developer Edition Master Repository on
+https://github.com/SoftEtherVPN/SoftEtherVPN
+
+Source code packages (.zip and .tar.gz) and binary files are also available:
+https://www.softether-download.com/
+
+We accept your patches by the acceptance policy:
+https://www.softether.org/5-download/src/9.patch
+
+Copyright (c) all contributors on SoftEther VPN project in GitHub.
+Copyright (c) Daiyuu Nobori, SoftEther Project at University of Tsukuba,
+and SoftEther Corporation.
+All rights reserved.
+
+The development of SoftEther VPN was supported by the MITOH Project,
+a research and development project by Japanese Government,
+subsidized by METI (Ministry of Economy, Trade and Industry of Japan),
+administrated by IPA (Information Promotion Agency, Japan).
+https://www.ipa.go.jp/english/humandev/
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at:
+http://www.apache.org/licenses/LICENSE-2.0
+
+SoftEther VPN ("SoftEther" means "Software Ethernet") is one of the
+world's most powerful and easy-to-use multi-protocol VPN software.
+
+SoftEther VPN runs on Windows, Linux, Mac, FreeBSD and Solaris.
+
+SoftEther VPN supports most of widely-used VPN protocols
+including SSL-VPN, OpenVPN, IPsec, L2TP, MS-SSTP, L2TPv3 and EtherIP
+by the single SoftEther VPN Server program.
+
+More details on https://www.softether.org/.
+
+
+SOFTETHER VPN ADVANTAGES
+------------------------
+
+- Supporting all popular VPN protocols by the single VPN server:
+  SSL-VPN (HTTPS)
+  OpenVPN
+  IPsec
+  L2TP
+  MS-SSTP
+  L2TPv3
+  EtherIP
+- Free and open-source software.
+- Easy to establish both remote-access and site-to-site VPN.
+- SSL-VPN Tunneling on HTTPS to pass through NATs and firewalls.
+- Revolutionary VPN over ICMP and VPN over DNS features.
+- Resistance to highly-restricted firewall.
+- Ethernet-bridging (L2) and IP-routing (L3) over VPN.
+- Embedded dynamic-DNS and NAT-traversal so that no static nor
+  fixed IP address is required.
+- AES 256-bit and RSA 4096-bit encryptions.
+- Sufficient security features such as logging and firewall inner
+  VPN tunnel.
+- User authentication with RADIUS and NT domain controllers.
+- User authentication with X.509 client certificate.
+- Packet logging.
+- 1Gbps-class high-speed throughput performance with low memory and
+  CPU usage.
+- Windows, Linux, Mac, Android, iPhone, iPad and Windows Phone are
+  supported.
+- The OpenVPN clone function supports legacy OpenVPN clients.
+- IPv4 / IPv6 dual-stack.
+- The VPN server runs on Windows, Linux, FreeBSD, Solaris and Mac OS X.
+- Configure All settings on GUI.
+- Multi-languages (English, Japanese and Simplified-Chinese).
+- No memory leaks. High quality stable codes, intended for long-term runs.
+  We always verify that there are no memory or resource leaks before
+  releasing the build.
+- More details at https://www.softether.org/.
+
+
+GETTING STARTED
+---------------
+
+Visit the SoftEther VPN Project official web site at first:
+        https://www.softether.org/
+
+If you are not a developer, it is recommended to download the binary
+installers from:
+        https://www.softether-download.com/
+
+To build from the source,
+see "BUILD_UNIX.TXT" or "BUILD_WINDOWS.TXT" files.
+
+
+HOW TO DOWNLOAD THE LATEST SOURCE CODE PACKAGE
+----------------------------------------------
+
+Go to https://www.softether-download.com/ and you can find the latest
+source-code package file in both .ZIP and .TAR.GZ format.
+
+This is the easiest way to obtain the source code of SoftEther VPN.
+
+
+HOW TO GET THE LATEST SOURCE CODE TREE FOR DEVELOPERS
+-----------------------------------------------------
+
+If you are an open-source developer, visit our GitHub repository:
+https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/
+
+You can download the up-to-date source-code tree of SoftEther VPN
+from GitHub. You may make your own fork project from our project.
+
+The download and build instruction is following:
+
+$ git clone https://github.com/SoftEtherVPN/SoftEtherVPN_Stable.git
+$ cd SoftEtherVPN
+$ ./configure
+$ make
+$ make install
+
+
+
+
+
+
 The files here are for building an RPM package installable on CentOS 6.x/RHEL 6.x.
 
 I (Dexter Ang, aka @thepoch) am not affiliated with the SoftEther VPN Project. Any bugs, suggestions, improvements on building an RPM should probably be reported to me.
